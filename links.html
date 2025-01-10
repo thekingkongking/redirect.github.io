@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ssighcopath</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Linktree Clone">
+    <meta property="og:description" content="Check out all my links!">
+    <meta property="og:image" content="background.jpg">
+    <meta property="og:url" content="https://ssighcopath.com/links">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Linktree Clone">
+    <meta name="twitter:description" content="Check out all my links!">
+    <meta name="twitter:image" content="background.jpg">
+    <meta name="twitter:url" content="https://ssighcopath.com/links">
+
+
     <style>
         body, html {
             margin: 0;
@@ -36,11 +52,36 @@
             transform: translateY(-5px);
             box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
+
+        /* Media Queries */
+        @media (min-width: 600px) {
+            .link {
+                width: 60%;
+                
+            }
+        }
+       
+          /* Media Queries */
+          @media (min-width: 900px) {
+            .link {
+                width: 70%;
+               
+            }
+        }
+
+          /* Media Queries */
+          @media (min-width: 1200px) {
+            .link {
+                width: 80%;
+                
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <a class="link" href="https://x.com/sssighcopath" target="_blank">Follow me on Twitter</a>
+        <a class="link" href="https://www.twitch.tv/ssighcopath" target="_blank">Twitch</a>
     </div>
     <script>
         // Add any additional JavaScript if needed
